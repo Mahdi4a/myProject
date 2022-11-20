@@ -1,0 +1,16 @@
+{
+    "name": "Discount",
+    "alias": "تخفیف ها",
+    "description": "ماژول ساخت کد تخفیف برای کاربران",
+    "keywords": [],
+    "priority": 11,
+    "canDisable": true,
+    "providers": [
+        "Modules\\Discount\\Providers\\DiscountServiceProvider"
+    ],
+    "files": [],
+    "minimumCoreVersion": "",
+    "title": "",
+    "version": "",
+    "author": ""
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Payment",
+    "alias": "تراکنش ها",
+    "description": "ماژول مدیریت تراکنش ها",
+    "keywords": [],
+    "priority": 8,
+    "canDisable": true,
+    "providers": [
+        "Modules\\Payment\\Providers\\PaymentServiceProvider"
+    ],
+    "files": [],
+    "minimumCoreVersion": "",
+    "title": "",
+    "version": "",
+    "author": ""
+}

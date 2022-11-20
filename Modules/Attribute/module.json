@@ -1,0 +1,16 @@
+{
+    "name": "Attribute",
+    "alias": "ویژگی ها",
+    "description": "ماژول مدیریت ویژگی های محصول",
+    "keywords": [],
+    "priority": 3,
+    "canDisable": true,
+    "providers": [
+        "Modules\\Attribute\\Providers\\AttributeServiceProvider"
+    ],
+    "files": [],
+    "minimumCoreVersion": "",
+    "title": "",
+    "version": "",
+    "author": ""
+}

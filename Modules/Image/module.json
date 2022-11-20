@@ -1,0 +1,16 @@
+{
+    "name": "Image",
+    "alias": "تصاویر",
+    "description": "ماژول مدیریت تصاویر سایت",
+    "keywords": [],
+    "priority": 7,
+    "canDisable": true,
+    "providers": [
+        "Modules\\Image\\Providers\\ImageServiceProvider"
+    ],
+    "files": [],
+    "minimumCoreVersion": "",
+    "title": "",
+    "version": "",
+    "author": ""
+}

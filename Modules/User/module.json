@@ -1,0 +1,16 @@
+{
+    "name": "User",
+    "alias": "کاربران",
+    "description": "ماژول مدیریت کاربران سایت",
+    "keywords": [],
+    "priority": 1,
+    "canDisable": true,
+    "providers": [
+        "Modules\\User\\Providers\\UserServiceProvider"
+    ],
+    "files": [],
+    "minimumCoreVersion": "",
+    "title": "",
+    "version": "",
+    "author": ""
+}

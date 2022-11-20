@@ -1,0 +1,16 @@
+{
+    "name": "Permission",
+    "alias": "دسترسی ها",
+    "description": "ماژول ساخت و کنترل سطح دسترسی ها",
+    "keywords": [],
+    "priority": 2,
+    "canDisable": true,
+    "providers": [
+        "Modules\\Permission\\Providers\\PermissionServiceProvider"
+    ],
+    "files": [],
+    "minimumCoreVersion": "",
+    "title": "",
+    "version": "",
+    "author": ""
+}

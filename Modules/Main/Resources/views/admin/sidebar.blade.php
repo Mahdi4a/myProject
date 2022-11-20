@@ -1,0 +1,8 @@
+@can('show-modules')
+    <li class="nav-item">
+        <a href="{{route('admin.modules.index')}}" class="nav-link {{ isActive('admin.modules.index') }}">
+            <i class="nav-icon fa fa-dashboard"></i>
+            <p>مدیریت ماژول ها</p>
+        </a>
+    </li>
+@endcan

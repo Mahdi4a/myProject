@@ -1,0 +1,16 @@
+{
+    "name": "Main",
+    "alias": "مدیریت ماژول ها",
+    "description": "ماژول مدیریت دیگر ماژول ها",
+    "keywords": [],
+    "priority": 0,
+    "canDisable": false,
+    "providers": [
+        "Modules\\Main\\Providers\\MainServiceProvider"
+    ],
+    "files": [],
+    "minimumCoreVersion": "",
+    "title": "",
+    "version": "",
+    "author": ""
+}

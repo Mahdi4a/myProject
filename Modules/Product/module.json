@@ -1,0 +1,16 @@
+{
+    "name": "Product",
+    "alias": "محصولات",
+    "description": "ماژول مدیریت محصولات",
+    "keywords": [],
+    "priority": 5,
+    "canDisable": true,
+    "providers": [
+        "Modules\\Product\\Providers\\ProductServiceProvider"
+    ],
+    "files": [],
+    "minimumCoreVersion": "",
+    "title": "",
+    "version": "",
+    "author": ""
+}

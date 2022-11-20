@@ -1,0 +1,16 @@
+{
+    "name": "Order",
+    "alias": "سفارشات",
+    "description": "ماژول مدیریت سفارشات سایت",
+    "keywords": [],
+    "priority": 9,
+    "canDisable": true,
+    "providers": [
+        "Modules\\Order\\Providers\\OrderServiceProvider"
+    ],
+    "files": [],
+    "minimumCoreVersion": "",
+    "title": "",
+    "version": "",
+    "author": ""
+}

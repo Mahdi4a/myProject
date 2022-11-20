@@ -1,0 +1,16 @@
+{
+    "name": "Category",
+    "alias": "دسته بندی ها",
+    "description": "ماژول مدیریت دسته بندی ها",
+    "keywords": [],
+    "priority": 4,
+    "canDisable": true,
+    "providers": [
+        "Modules\\Category\\Providers\\CategoryServiceProvider"
+    ],
+    "files": [],
+    "minimumCoreVersion": "",
+    "title": "",
+    "version": "",
+    "author": ""
+}

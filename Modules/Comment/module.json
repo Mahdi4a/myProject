@@ -1,0 +1,16 @@
+{
+    "name": "Comment",
+    "alias": "نظرات",
+    "description": "ماژول مدیریت نظرات کاربران",
+    "keywords": [],
+    "priority": 6,
+    "canDisable": true,
+    "providers": [
+        "Modules\\Comment\\Providers\\CommentServiceProvider"
+    ],
+    "files": [],
+    "minimumCoreVersion": "",
+    "title": "",
+    "version": "",
+    "author": ""
+}

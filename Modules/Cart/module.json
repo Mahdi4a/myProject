@@ -1,0 +1,19 @@
+{
+    "name": "Cart",
+    "alias": "سبد خرید",
+    "description": "ماژول مدیریت سبد خرید",
+    "keywords": [],
+    "priority": 6,
+    "canDisable": true,
+    "providers": [
+        "Modules\\Cart\\Providers\\CartServiceProvider"
+    ],
+    "aliases": {
+        "cart": "Modules\\Cart\\Service\\Cart"
+    },
+    "files": [],
+    "minimumCoreVersion": "",
+    "title": "",
+    "version": "",
+    "author": ""
+}

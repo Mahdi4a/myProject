@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/main",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+            }
+        }
+    },
+    "autoload": {
+        "files": [
+            "Modules/Main/Http/helpers.php"
+        ],
+        "psr-4": {
+            "Modules\\Main\\": ""
+        }
+    }
+}
