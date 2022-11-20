@@ -1,0 +1,14 @@
+{
+    "Attribute": true,
+    "Cart": true,
+    "Product": true,
+    "Permission": true,
+    "Category": true,
+    "User": true,
+    "Comment": true,
+    "Order": true,
+    "Payment": true,
+    "Discount": true,
+    "Main": true,
+    "Image": true
+}
