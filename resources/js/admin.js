@@ -17,4 +17,5 @@
 require('./admin/adminlte');
 require('./admin/dashboard');
 require('./admin/demo');
+require('./admin/index')
 require('sweetalert')

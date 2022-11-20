@@ -14,24 +14,23 @@
 */
 
 
-use App\Http\Controllers\Admin\Category\CategoryController;
-use App\Http\Controllers\Admin\Permission\PermissionController;
-use App\Http\Controllers\Admin\Product\ProductController;
-use App\Http\Controllers\Admin\Role\RoleController;
-use App\Http\Controllers\Admin\Users\UserController;
-use App\Http\Controllers\Admin\Users\UserPermissionController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/',function(){
-    auth()->loginUsingId(1);
-    return view('admin.index');
-})->name('index');
+//Route::get('/',function(){
+//    auth()->loginUsingId(1);
+//    return view('admin.index');
+//})->name('index');
 
 
-Route::resource('users',UserController::class);
-Route::get("/users/{user}/permissions",[UserPermissionController::class , 'create'])->name('users.permissions');
-Route::post('/users/{user}/permissions', [UserPermissionController::class , 'store'])->name('users.permissions.store');
-Route::resource('permissions',PermissionController::class);
-Route::resource('roles',RoleController::class);
-Route::resource("product",ProductController::class);
-Route::resource('category',CategoryController::class);
+//Route::resource('users',UserController::class);
+//Route::get("/users/{user}/permissions",[UserPermissionController::class , 'create'])->name('users.permissions');
+//Route::post('/users/{user}/permissions', [UserPermissionController::class , 'store'])->name('users.permissions.store');
+//Route::resource('permissions',PermissionController::class);
+//Route::resource('roles',RoleController::class);
+//Route::resource("product",ProductController::class);
+//Route::resource('category',CategoryController::class);
+//Route::get('/comment/unapproved', [CommentController::class, 'unapproved'])->name('comment.unapproved');
+//Route::resource('comment',CommentController::class ,['names' => ['index'=> 'comment.approved']])->only('show','index','approved','unapproved','update','destroy');
+//Route::get("attribute/value", [AttributeController::class , 'getValues']);
+//Route::get("orders/{order}/payment", [OrderController::class , 'payment'])->name('orders.payment');
+//Route::resource('orders',OrderController::class);

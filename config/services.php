@@ -41,4 +41,9 @@ return [
         'api_key' => env('GHASEDAK_API_KEY'),
     ],
 
+    'bank_token' => [
+        'pay_ping' => env('PAYPING_TOKEN'),
+        'nextPay' => env('NEXTPAY_TOKEN'),
+    ],
+
 ];

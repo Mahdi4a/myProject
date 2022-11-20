@@ -20,13 +20,19 @@ return new class extends Migration
             $table->unsignedBigInteger('category_id')->nullable();
             $table->foreign('category_id')->references('id')->on('categories')->onDelete('cascade');
             $table->string('name');
-            $table->string('description');
+            $table->string('title');
+            $table->string('slug');
+            $table->text('description');
+            $table->text('seo_description');
             $table->string('part_type')->nullable();
             $table->tinyInteger('status')->default(0);
             $table->unsignedBigInteger('user_id_updated')->nullable();
             $table->foreign('user_id_updated')->references('id')->on('users')->onDelete('cascade');
+            $table->softDeletes();
             $table->timestamps();
         });
+
+
     }
 
     /**
