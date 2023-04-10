@@ -2,10 +2,9 @@
 
 namespace Database\Seeders;
 
-use App\Models\Comment;
-use App\Models\Product;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Modules\Product\Entities\Product;
 
 class CommentSeeder extends Seeder
 {
